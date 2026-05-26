@@ -12,7 +12,7 @@
  */
 
 const ALLOWED_ORIGINS = [
-  "https://bansalsahil.github.io",
+  "https://sahilbnsll.github.io",
   "http://localhost:3000",
   "http://127.0.0.1:5500",
   "null" // for local file:// testing

@@ -12,7 +12,7 @@ To achieve a secure, zero-cost deployment, we use **GitHub Pages** for hosting t
 4. Name it something like `notion-job-proxy` and click **Deploy**.
 5. Click **Edit Code**.
 6. Replace the default code with the contents of the `worker.js` file located in this project directory.
-7. Important: In the code you pasted, update the `ALLOWED_ORIGINS` array to include your GitHub Pages URL (e.g., `https://bansalsahil.github.io`).
+7. Important: In the code you pasted, update the `ALLOWED_ORIGINS` array to include your GitHub Pages URL (e.g., `https://sahilbnsll.github.io`).
 8. Click **Deploy** in the top right.
 9. After deploying, go back to the Worker's settings page, go to **Settings** -> **Variables**.
 10. Under **Environment Variables**, add two variables:
@@ -56,11 +56,11 @@ git push -u origin main
 1. On your GitHub repository page, click the **Settings** tab (the gear icon at the top right).
 2. On the left sidebar, scroll down and click on **Pages**.
 3. Under the **"Build and deployment"** section:
-   - For **Source**, select **Deploy from a branch**.
-   - Under **Branch**, change `None` to **`main`** (or `master`), and leave the folder as **`/ (root)`**.
+   * For **Source**, select **Deploy from a branch**.
+   * Under **Branch**, change `None` to **`main`** (or `master`), and leave the folder as **`/ (root)`**.
 4. Click **Save**.
 
-Wait about 1–2 minutes. If you refresh that same Settings -> Pages screen, you will see a banner at the top saying: 
+Wait about 1–2 minutes. If you refresh that same Settings -> Pages screen, you will see a banner at the top saying:
 **"Your site is live at `https://your-username.github.io/job-tracker/`"**
 
 Your dashboard is now live, secure, and will seamlessly push and pull edits/archives to Notion!
